@@ -21,15 +21,18 @@ or .Net 2.x by using:
 ```js
 .loadby sos mscorwks
 ```
-3. Load custom script to the repository by using:
+![Libs](/Windbg/aspxpages-01.png)
+
+3. Load custom script from your local repository (i.e. c:\dbghelpers) to the WinDbg repository by using:
 ```js
 .scriptload c:\dbghelpers\aspxpages.js
 ```
+![Libs](/Windbg/aspxpages-02.png)
 4. Run the script
 ```js
 dx Debugger.State.Scripts.aspxpages.Contents.getLongRunningReqs()
 ```
-
+![Libs](/Windbg/aspxpages-03.png)
 # References
 
 [Customizing Debugger Output Using DML](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/customizing-debugger-output-using-dml)
