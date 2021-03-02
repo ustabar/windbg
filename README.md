@@ -27,12 +27,12 @@ or .Net 2.x by using:
 ```js
 .scriptload c:\dbghelpers\aspxpages.js
 ```
-![Title](https://github.com/ustabar/windbg/tree/main/WinDbg/aspxpages-02.png)
+![Title](./WinDbg/aspxpages-02.png)
 4. Run the script
 ```js
 dx Debugger.State.Scripts.aspxpages.Contents.getLongRunningReqs()
 ```
-![Title](https://github.com/ustabar/windbg/tree/main/WinDbg/aspxpages-03.png)
+![Title](./WinDbg/aspxpages-03.png)
 # References
 
 [Customizing Debugger Output Using DML](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/customizing-debugger-output-using-dml)
