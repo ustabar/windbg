@@ -21,7 +21,7 @@ or .Net 2.x by using:
 ```js
 .loadby sos mscorwks
 ```
-![Title](https://github.com/ustabar/windbg/tree/main/WinDbg/aspxpages-01.png)
+![Title](./WinDbg/aspxpages-01.png)
 
 3. Load custom script from your local repository (i.e. c:\dbghelpers) to the WinDbg repository by using:
 ```js
