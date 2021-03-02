@@ -4,10 +4,11 @@ Productive scripts for WinDbg
 This repo was created to help debuggers to give them important tips while they are troubleshooting a problem.
 
 [MEX](https://www.microsoft.com/en-us/download/details.aspx?id=53304) extention is a great library to find the problem's rootcause.
-***aspxpages.js*** file can be used for listing long running requests in user mode dumps.
-Script uses `!aspxpagesext` MEX library command and filters output as continued requests.
+`!aspxpagesext` command lists every request status either completed or currently running in a same output table.
+***aspxpages.js*** file can be used for listing only currently running requests in user mode dumps.
+Script uses `!aspxpagesext` command output and filters the output results.
 
-To be able to run the script please foolow the steps below in WinDbg editor command window:
+To be able to run the script please follow the steps below in WinDbg editor command window:
 
 1. Load initial libraries by using:
 ```js
