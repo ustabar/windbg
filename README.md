@@ -33,7 +33,11 @@ dx Debugger.State.Scripts.aspxpages.Contents.getLongRunningReqs()
 # References
 
 [Customizing Debugger Output Using DML](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/customizing-debugger-output-using-dml)
+
 [JavaScript Debugger Scripting](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/javascript-debugger-scripting)
+
 [JavaScript basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+
 [JScript Language Tour](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/t895bwkh(v=vs.100))
+
 [ECMAScript New Features](http://es6-features.org/)
